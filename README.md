@@ -1,29 +1,78 @@
-# 🐚 Linux Shell Scripts Collection
+# Profile
+> <p align="center">The Echo Is Never Silent,<br>
+> Genesis Hums With Memory.</p>
 
-A compact toolkit of Bash scripts for essential system tasks — including directory backups, resource monitoring, and automated downloads.
+<p align="center">
+Created by Inkesk<br>
+Powered by OSKA<br>
+Under ØSKA<br></p>
+<div align="center"><strong>.</strong></div>
+<br>
+
+
+
+# 🌐 Harsh Dev Jha — Personal Portfolio
+
+Welcome to my personal portfolio website! This project is a creative and technical showcase of who I am, what I build, and how I think. It’s designed to be clean, responsive, and expressive—just like the tools I love to create.
 
 ---
 
-## 📁 Contents
+## 🧠 About This Project
 
-- 🔄 [A) Backup a Directory](#a-backup-a-directory)
-- 📊 [B) CPU & Memory Monitoring](#b-cpu--memory-monitoring)
-- 🌐 [C) Automated Download Task](#c-automated-download-task)
+This site is built entirely with HTML and styled through external CSS. It features:
+
+- A fixed header and navigation bar for smooth browsing
+- A search bar for exploring site fragments
+- A responsive layout with semantic structure
+- Fallback image handling for graceful degradation
+- A contact form and social media links for easy connection
+
+Whether you're a fellow developer, recruiter, or curious visitor—this portfolio is meant to be both informative and welcoming.
 
 ---
 
-## 🔄 A) Backup a Directory
+## 🧩 Site Structure
 
-**Description:**  
-Creates a timestamped backup of a specified directory, preserving its structure and contents.
+### 🏠 Header & Navigation
+- Displays my name and key navigation links
+- Includes a search bar for quick access
 
-**Features:**
-- Automatically names the backup folder using the current date and time
-- Recursively copies all files and subdirectories
-- Useful for daily or scheduled backups
+### 📜 Main Content
+- **Welcome Section**: A brief intro to the site
+- **About Me**: Includes a profile image and a short bio
+- **Projects**: Highlights two beginner-friendly tools:
+  - `Screenshot Compiler`
+  - `Password Strength Checker`
+- **Skills Table**: Lists my current technical proficiencies
 
-**Usage:**
-<!--
-```bash
-./backup.sh /path/to/source /path/to/backup
--->
+### 🧾 Contact Form
+- A simple form to send messages or reset fields
+- Includes a playful “Go to Google” button
+
+### 📌 Fixed Contact Panel
+- Floating sidebar with clickable icons for:
+  - GitHub
+  - LinkedIn
+  - Instagram
+  - Email
+  - Portfolio
+  - Resume
+
+### 🧙 Footer
+- A closing note with copyright
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- Semantic tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<aside>`, `<footer>`
+- Fallback image logic using `onerror`
+- Form validation with `required` attributes
+- External JavaScript file: `skin.js` (for future enhancements)
+
+---
+
+## 📁 File Layout
+
+This is my Profile.
