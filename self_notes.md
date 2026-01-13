@@ -48,4 +48,54 @@ Reduce returns a single number
 Big O - azentotic expression .
 Brute Force and Optimized Approach in Problem Solving.
 
+in console 
+
+```js
+console.log(Window)
+```
+
+then it will show all the object instantiation in the windows.
+
+line by line assigning in js ,
+also in js whenever an Object is instantiated its 
+assigned a new address in memory location as a new reference . Thus different memory address , array is also and Obejct.
+Thus when comparing 
+
+```js
+console.log([]==[])
+or
+console.log({}=={})
+```
+
+will give false.
+
+NaN is used as a bug support in JS.
+
+return will return only once in a function as after the return statement the code stops 
+so if we call it even after the once return call the code will be unreachable for it to return anything.
+
+## Functions
+
+### Arrow Function
+
+1. Treating the variable as a function.
+2. Use for return statement is sustained.
+
+### Callback Function 
+
+1. It is a asynchronous function. Can do multiple things at once.
+
+```md
+Asynchronous Function: We can move to another task before the previous one finishes its execution.
+Callback Function: We can pass one function inside another function as an argument.
+```
+
+#### Callback Hell
+
+## Methods
+
+1. Map returns the same length of the array
+2. Filter return the subset of orignal array
+3. Reduce method will return only one value (like : sum of all the numbers in the array)
+
 ---

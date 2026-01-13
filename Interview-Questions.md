@@ -13,12 +13,11 @@
     sum v/s every  
 6.Difference between string , obj method  
 7.Types of Functions.  
-    Regular Function
-    Arrow Function
-    Fast class function
-    Higher Order Function
-    Callback Function
-    Anonymous Function
-    Self Invoking Function (IIFE - Immediately Invoked Functions Expression)
-
+&emsp;7.1&nbsp; Regular Function  
+&emsp;7.2&nbsp; Arrow Function  
+&emsp;7.3&nbsp; Fast class function  
+&emsp;7.4&nbsp; Higher Order Function  
+&emsp;7.5&nbsp; Callback Function  
+&emsp;7.6&nbsp; Anonymous Function  
+&emsp;7.7&nbsp; Self Invoking Function (IIFE - Immediately Invoked Functions Expression)  
 
