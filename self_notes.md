@@ -83,6 +83,8 @@ so if we call it even after the once return call the code will be unreachable fo
 
 ### Callback Function 
 
+Functions passed into a HIgher Order function and used as a parameter.
+
 1. It is a asynchronous function. Can do multiple things at once.
 
 ```md
