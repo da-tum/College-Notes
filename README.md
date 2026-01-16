@@ -8,9 +8,9 @@ This repository contains a collection of Bash shell scripts designed to automate
 
 ## 📁 Contents
 
-- 🔄 [A) Backup a Directory](#a-backup-a-directory)
-- 📊 [B) CPU & Memory Monitoring](#b-cpu--memory-monitoring)
-- 🌐 [C) Automated Download Task](#c-automated-download-task)
+- 🔄 [A) Backup a Directory](#-a-backup-a-directory)
+- 📊 [B) CPU & Memory Monitoring](#-b-cpu--memory-monitoring)
+- 🌐 [C) Automated Download Task](#-c-automated-download-task)
 
 ---
 
