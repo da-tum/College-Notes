@@ -5,7 +5,7 @@
 # --- Script to log CPU and memory usage to a file at regular intervals --- 
 # log file path 
 
-log_file_pat="/home/harsh/monitoring_logs/ " 
+log_file_pat="/home/harsh/monitoring_logs" 
 log_file="$log_file_path/sys_monitoring.log" 
 
 # interval in seconds (default: 5) 
