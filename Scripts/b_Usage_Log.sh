@@ -5,7 +5,7 @@
 # --- Script to log CPU and memory usage to a file at regular intervals --- 
 # log file path 
 
-log_file_pat="/home/harsh/monitoring_logs" 
+log_file_path="/home/harsh/monitoring_logs" 
 log_file="$log_file_path/sys_monitoring.log" 
 
 # interval in seconds (default: 5) 
@@ -32,6 +32,9 @@ mem_usage=$(free | grep Mem | awk '{print $3/$2 * 100.0}')
 
 # append to log file 
 echo "$timestamp, $cpu_usage, $mem_usage" >> "$log_file" 
+
+#real time logs dislpay
+tail -f /home/harsh/monitoring_logs/sys_monitoring.log
 
 # sleep until the interval 
 sleep $interval 

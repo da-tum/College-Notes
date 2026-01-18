@@ -50,6 +50,13 @@ This script creates a timestamped backup of a specified directory, preserving it
 ```
 This will create a backup in `/home/harsh/backup/directories/backup_YYYY-MM-DD_HH:MM:SS/`.
 
+**Sample Output:**
+
+<br>
+
+<img width="817" height="583" alt="image" src="https://github.com/user-attachments/assets/4d87e98a-19aa-475c-a15e-6caf8e4e36ba" />
+
+
 ---
 
 ## 📊 B) CPU & Memory Monitoring
@@ -62,6 +69,7 @@ This script continuously monitors and logs CPU and memory usage to a file at reg
 - Uses a 5-second interval between log entries.
 - Creates the log directory and file if they do not exist.
 - Appends data to the log file in CSV format.
+- Displays real-time logs on the console.
 
 **Usage:**
 ```bash
@@ -74,6 +82,13 @@ Run the script in the background:
 ./Scripts/b_Usage_Log.sh &
 ```
 Stop it by finding the process ID and using `kill <PID>`. Logs are saved to `/home/harsh/monitoring_logs/sys_monitoring.log`.
+
+**Sample Output:**
+
+<br>
+
+<img width="1679" height="555" alt="image" src="https://github.com/user-attachments/assets/cf2f081f-e239-43cb-8f4b-c5ad52b1adf9" />
+
 
 ---
 
@@ -97,3 +112,11 @@ This script automates the download of files from a specified URL using `wget`. I
 ./Scripts/c_Download_Automation.sh https://example.com/file.zip
 ```
 This will download `file.zip` to `/home/harsh/downloads/` and log the result to `/home/harsh/downloads/download_log.txt`.
+
+**Sample Output:**
+
+<br>
+
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/0990671c-3a64-4d1e-b83f-478ea8721d65" />
+
+
