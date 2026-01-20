@@ -103,19 +103,24 @@ h2 {
 .hero-content .animated-text {
     font-size: 6rem;
     color: var(--accent-color);
-    animation: color-change 4s infinite alternate;
+    animation: color-change 1s infinite alternate;
 }
 
 @keyframes color-change {
     0% { color: var(--accent-color); }
+    25% { color:rgb(red, green, blue)}
     50% { color: var(--primary-color); }
+    75% { color: purple}
     100% { color: #8e44ad; }
 }
 
 .profile-image-container {
     width: 30rem;
     height: 30rem;
+    padding: 1rem;
     border-radius: 50%;
+    box-shadow:0 0 1rem var(--accent-color);
+    border: 0.3rem solid var(--accent-color);
     transition: transform 0.5s ease;
 }
 
