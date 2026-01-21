@@ -1,63 +1,121 @@
-# Web Development Lab 3: Portfolio Website
+# Number Guessing Game
 
-## Overview
+## GitHub Description
+A simple and engaging number guessing game implemented in Python. The program picks a random number between 1 and 100, and challenges the player to guess it. With friendly hints, attempt tracking, and replayability, it's a fun little CLI game to enjoy and learn from.
 
-This project implements a responsive portfolio website as part of Web Development Lab 3. The website showcases proficiency in HTML5 semantic markup and CSS3 styling, incorporating modern web development techniques such as animations, transitions, and responsive design principles.
+## Installation
+Make sure you have Python installed on your system. You can download it here: [python.org](https://www.python.org/downloads/).
+
+Clone this repository or download the `Game.py` file directly to your local machine.
+
+## GitHub Commands and Workflow
+
+Here are common GitHub commands to work with this project repository:
+
+- Clone the repository:
+  ```
+  git clone https://github.com/your-username/number-guessing-game.git
+  ```
+- Change directory into the repo:
+  ```
+  cd number-guessing-game
+  ```
+- Check the repository status:
+  ```
+  git status
+  ```
+- View recent commits and history:
+  ```
+  git log
+  ```
+- Fetch updates from remote repository:
+  ```
+  git fetch
+  ```
+- Merge fetched updates into current branch:
+  ```
+  git merge origin/main
+  ```
+- Check differences between files or commits:
+  ```
+  git diff
+  ```
+- Stash any uncommitted changes temporarily:
+  ```
+  git stash
+  ```
+- Apply stashed changes back to working directory:
+  ```
+  git stash apply
+  ```
+- Reset changes in working directory or specific files:
+  ```
+  git reset HEAD <file>
+  ```
+- Add changes for commit:
+  ```
+  git add .
+  ```
+- Commit changes with a message:
+  ```
+  git commit -m "Your descriptive commit message"
+  ```
+- Push changes to a remote branch:
+  ```
+  git push origin your-branch-name
+  ```
+- Create a new branch for development:
+  ```
+  git checkout -b feature-branch-name
+  ```
+- Switch between branches:
+  ```
+  git checkout branch-name
+  ```
+- Pull latest changes from remote:
+  ```
+  git pull origin main
+  ```
+- Manage remote repositories:
+  ```
+  git remote -v
+  git remote add origin <url>
+  ```
+
+## Usage
+1. Open your terminal or command prompt.
+2. Navigate to the directory containing the `Game.py` file.
+3. Run the game using the command:
+   ```
+   python Game.py
+   ```
+4. Follow the prompts in the console to play the game.
+5. Enter your guesses when asked and try to find the random number.
+6. After winning, you can choose to play another round or exit.
 
 ## Features
+- Random number generation between 1 and 100.
+- Input validation to ensure valid guesses.
+- Friendly hints ("Too high", "Too low").
+- Attempt counting.
+- Option to play multiple rounds.
+- Graceful exit when the player chooses not to play again.
 
-- **Semantic HTML5 Structure**: Utilizes elements including `<header>`, `<section>`, `<nav>`, `<form>`, and `<footer>` for accessible and structured content.
-- **CSS3 Styling and Layout**: Employs CSS Grid and Flexbox for layout management, CSS custom properties for theming, and media queries for responsive behavior.
-- **Animations and Interactions**: Implements keyframe animations for visual effects and CSS transitions for hover states.
-- **Responsive Design**: Ensures optimal viewing across devices with mobile-first breakpoints.
+## Future Improvements
+- Add difficulty levels with different ranges.
+- Add a scoring system based on attempts.
+- Implement a graphical user interface (GUI).
+- Support multiplayer mode.
 
-## File Structure
-
-- `index.html`: Primary HTML document containing the website's markup.
-- `style.css`: Comprehensive stylesheet defining all visual styles, animations, and responsive rules.
-
-## Key Technologies and Techniques
-
-### HTML5 Elements
-- Structural elements: `<header>`, `<section>`, `<footer>`
-- Interactive elements: `<nav>`, `<form>`, `<input>`, `<textarea>`
-- Media elements: `<img>`
-
-### CSS3 Techniques
-- Layout: Grid and Flexbox
-- Theming: CSS custom properties (variables)
-- Animations: `@keyframes` for fade effects
-- Interactions: `transform`, `transition`, and `box-shadow` for hover effects
-- Responsiveness: Media queries for adaptive layouts
-
-## Code Examples
-
-### CSS Grid Layout
-```css
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-}
+## Sample Interaction
 ```
-
-### Keyframe Animation
-```css
-@keyframes fade-in {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 1; }
-}
-```
-
-## Installation and Usage
-
-1. Clone the repository or download the project files.
-2. Open `index.html` in a modern web browser.
-3. Navigate through the sections: Hero, Skills, Projects, and Contact.
-
-No additional dependencies or server setup is required, as this is a static website.
-
-## Technologies Used
-
-- HTML5
-- CSS3
+Welcome to the Number Guessing Game!
+I'm thinking of a number between 1 and 100.
+Make a guess: 50
+Too low. Try again!
+Make a guess: 75
+Too high. Try again!
+Make a guess: 62
+Congratulations! You guessed the number in 3 attempts.
+Would you like to play again? (y/n): n
+Thanks for playing! Goodbye!
