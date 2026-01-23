@@ -108,6 +108,9 @@ Here are common GitHub commands to work with this project repository:
 - Support multiplayer mode.
 
 ## Sample Interaction
+
+![Sample Interaction](/Assets/image.png)
+
 ```
 Welcome to the Number Guessing Game!
 I'm thinking of a number between 1 and 100.
@@ -123,10 +126,10 @@ Thanks for playing! Goodbye!
 ```
 
 ## Git Comamdns Used in this File
-[Git1](\Assets\git-cmd01.png)
-[Git2](\Assets\git-cmd02.png)
-[Git3](\Assets\git-cmd03.png)
-[Git4](\Assets\git-cmd04.png)
-[Git5](\Assets\git-cmd05.png)
-[Git6](\Assets\git-cmd06.png)
-[Git7](\Assets\git-cmd07.png)
+![Git1](/Assets/git-cmd01.png)
+![Git2](/Assets/git-cmd02.png)
+![Git3](/Assets/git-cmd03.png)
+![Git4](/Assets/git-cmd04.png)
+![Git5](/Assets/git-cmd05.png)
+![Git6](/Assets/git-cmd06.png)
+![Git7](/Assets/git-cmd07.png)
