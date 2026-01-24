@@ -124,6 +124,10 @@ Would you like to play again? (y/n): n
 Thanks for playing! Goodbye!
 
 ```
+## Documentation For Project
+Visit 
+[Documentation](/docs/documentation.md)
+
 
 ## Git Comamdns Used in this File
 ![Git1](/Assets/git-cmd01.png)

@@ -28,11 +28,12 @@ def play_game():
 
 def main():
     while True:
-        play_game()
         play_again = input("Would you like to play again? (y/n): ").strip().lower()
         if play_again != 'y':
             print("Thanks for playing! Goodbye!")
             break
+        else:
+            play_game()
 
 if __name__ == "__main__":
     main()
