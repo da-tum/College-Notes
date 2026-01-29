@@ -102,8 +102,6 @@ Thank You For Using this Service
 
 
 ## Accessing the Sample Files
-Access Sample CSV
-![Access Sample CSV](Assets/Sample/sample_students.csv)
-Access Sample Run python File
-![Access Sample run py file](Assets/Sample/sample_run.py)
+[Access Sample CSV](Assets/Sample/sample_students.csv)
+[Access Sample run py file](Assets/Sample/sample_run.py)
 
