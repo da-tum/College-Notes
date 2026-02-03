@@ -1,6 +1,6 @@
 # Questions
 
-## Sem 1
+## Sem II
 
 1.Difference between var,let and const.  
 2.Explain different types of JS operators.  
@@ -20,7 +20,10 @@
 &emsp;7.5&nbsp; Callback Function  
 &emsp;7.6&nbsp; Anonymous Function  
 &emsp;7.7&nbsp; Self Invoking Function (IIFE - Immediately Invoked Functions Expression)  
-8.Difference between spread operator and rest parameter
-9.What is nullish coalescing operator
-10.difference between setInterval and setTimeout.
-11.
+8.Difference between spread operator and rest parameter  
+9.What is nullish coalescing operator  
+10.Difference between setInterval and setTimeout.  
+11.What is DOM?
+12.Difference Between 'getElementById' and 'getElementsByClassName'.  
+13.Differnce Between 'query' and 'query all'
+14.
