@@ -1,16 +1,37 @@
-//Create new elemment and set its content
-const newParagraph = document.createElement('p');
-newParagraph.textContent = 'This is a dynamically added paragraph.';
-document.body.appendChild(newParagraph);
+// function handleClick(){
+//     document.getElementById("btn").textcontent="Clicked!";
+// }
 
-// Append the new element in the container 
-const container = document.getElementById('container');
-container.appendChild(newParagraph);
+// function handleClick(){
+//     document.getElementById("btn").textContent="Clicked!";
+//     document.getElementById("heading").textContent="Heading Changed!";
+//     document.getElementById("heading").style.color="tomato";
 
-// Remove the content of the container
-document.querySelector('#container p').remove();
+// }
 
-const image = document.createElement("img");
-image.setAttribute("src", "https://picsum.photos/300/200");
-image.setAttribute("alt", "Placeholder Image");
-document.body.appendChild(image);
+
+// function handleClick() {
+//     const span = document.createElement("span");
+//     span.textContent = "This is a dynamically created span element.";
+
+//     const image = document.createElement("img");
+//     image.setAttribute("src", "https://www.pinterest.com/luisanddagmar/linkedin-background-image/");
+//     image.setAttribute("alt", "Placeholder Image");
+
+//     document.getElementById("content").appendChild(span);
+//     document.getElementById("content").appendChild(image);
+// }
+
+
+document.getElementById("btn").addEventListener("click",()=>{
+    const span = document.createElement("span");
+    span.textContent = "This is a dynamically created span element.";
+
+    const image = document.createElement("img");
+    image.setAttribute("src", "https://www.pinterest.com/luisanddagmar/linkedin-background-image/");
+    image.setAttribute("alt", "Placeholder Image");
+
+    document.getElementById("content").appendChild(span);
+    document.getElementById("content").appendChild(image);
+})
+
