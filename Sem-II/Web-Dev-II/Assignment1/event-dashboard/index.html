@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Event Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Event Dashboard</h1>
+
+        <div class="dashboard">
+            <div class="add-event">
+                <h2>Add New Event</h2>
+                <form id="eventForm">
+                    <input type="text" id="eventName" placeholder="Event Name" required>
+                    <input type="datetime-local" id="eventDate" required>
+                    <textarea id="eventDescription" placeholder="Event Description"></textarea>
+                    <select id="eventPriority">
+                        <option value="low">Low Priority</option>
+                        <option value="medium">Medium Priority</option>
+                        <option value="high">High Priority</option>
+                    </select>
+                    <button type="submit">Add Event</button>
+                </form>
+            </div>
+
+            <div class="event-list">
+                <h2>Your Events</h2>
+                <div class="filters">
+                    <button id="filterAll">All</button>
+                    <button id="filterUpcoming">Upcoming</button>
+                    <button id="filterToday">Today</button>
+                    <button id="filterHighPriority">High Priority</button>
+                </div>
+                <div id="eventsContainer"></div>
+            </div>
+
+            <div class="smart-features">
+                <h2>Smart Insights</h2>
+                <div id="insights">
+                    <p>Total Events: <span id="totalEvents">0</span></p>
+                    <p>Upcoming Events: <span id="upcomingEvents">0</span></p>
+                    <p>Events Today: <span id="todayEvents">0</span></p>
+                    <p>High Priority Events: <span id="highPriorityEvents">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
