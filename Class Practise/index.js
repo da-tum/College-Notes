@@ -25,3 +25,5 @@ let result = marks.map(function(marks){
         console.log(marks, "Fail");
     }
 });
+console.log(result);
+
