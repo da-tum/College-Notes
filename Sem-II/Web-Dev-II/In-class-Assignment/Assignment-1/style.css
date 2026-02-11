@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+}
+
+.form-section, .events-section, .demo-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.form-section { flex: 1; }
+.events-section { flex: 2; }
+
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover { background-color: #a29bfe; }
+
+.controls { margin-bottom: 15px; display: flex; gap: 10px; }
+
+/* Event Card Styling */
+.event-card {
+    background: #f1f2f6;
+    border-left: 5px solid #6c5ce7;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ff7675;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+.demo-content {
+    background: #eee;
+    padding: 15px;
+    border-radius: 5px;
+}
