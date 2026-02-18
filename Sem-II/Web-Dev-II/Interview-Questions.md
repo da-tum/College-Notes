@@ -30,7 +30,10 @@
 
 ```md
 
-1. What is callback hell?
-
+1. What is callback hell?solutions for it (promise chaining)
+2. What is await waitign for -> fir promises to get resolved or rejected
+3. Whenever you call async func what you get in return. ->promises will be returned that are nothing but data -> 
+   data will be returned in form of promises.
+4. 
 
 ```
