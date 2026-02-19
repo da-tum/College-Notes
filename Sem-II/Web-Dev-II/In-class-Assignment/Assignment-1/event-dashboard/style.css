@@ -1,0 +1,186 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 30px 0;
+    font-size: 2.5em;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.add-event, .event-list, .smart-features {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.add-event h2, .event-list h2, .smart-features h2 {
+    color: #495057;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, select {
+    padding: 12px;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+button {
+    padding: 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filters button {
+    padding: 8px 16px;
+    background: #e9ecef;
+    color: #495057;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filters button:hover, .filters button.active {
+    background: #667eea;
+    color: white;
+}
+
+.event-item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-left: 5px solid #667eea;
+    transition: transform 0.2s;
+}
+
+.event-item:hover {
+    transform: translateY(-2px);
+}
+
+.event-item.high-priority {
+    border-left-color: #dc3545;
+}
+
+.event-item.today {
+    border-left-color: #ffc107;
+}
+
+.event-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.event-date {
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+.event-description {
+    margin: 10px 0;
+    color: #495057;
+}
+
+.event-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.event-actions button {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.delete-btn {
+    background: #dc3545 !important;
+}
+
+.edit-btn {
+    background: #28a745 !important;
+}
+
+#insights {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+#insights p {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#insights span {
+    font-weight: bold;
+    color: #667eea;
+}
+
+@media (max-width: 768px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
