@@ -5,6 +5,7 @@ This document provides a comprehensive explanation of the `single-linked-list.py
 ## Overview
 
 A **Single Linked List** is a fundamental linear data structure in computer science. It consists of a sequence of nodes, where each node contains:
+
 - **Data**: The value or information stored in the node
 - **Next**: A reference (pointer) to the next node in the sequence
 
@@ -51,6 +52,7 @@ class Node:
 **Purpose**: Represents a single node in the linked list.
 
 **Attributes**:
+
 - `data`: Stores the actual value/data for the node
 - `next`: Reference to the next node (initialized as None)
 
@@ -376,6 +378,7 @@ def display(self):
 This implementation demonstrates a complete Single Linked List with all fundamental operations. The time complexity analysis shows that while linked lists excel at insertions and deletions at the beginning (O(1)), they require linear time for operations that need to traverse the list (O(n)).
 
 Understanding these trade-offs is crucial for choosing the right data structure for specific applications. Linked lists are particularly useful when:
+
 - The number of elements is unpredictable
 - Frequent modifications at the beginning are needed
 - Sequential access is acceptable

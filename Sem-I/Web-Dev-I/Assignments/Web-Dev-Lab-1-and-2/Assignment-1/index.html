@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDJ - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="#Main">Skip to main content</a>
+    <header id="Home">
+        <h1>Harsh Dev Jha</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+ 
+    <main id="Main">
+        <section class="hero">
+            <h1>Welcome To My Portfolio</h1>
+            <p>Hello, this is my portfolio.</p>
+        </section>
+
+        <section id="About">
+            <h2>About Me</h2>
+            <img class="profile-image" src="./Assets/Placeholder.png" alt="Profile photo of Harsh Dev Jha, a computer science student" width="150" height="150">
+
+            <p>Hello, my name is Harsh Dev Jha. I am a student in CSE Core with a passion for everything I can literally get hands-on. I have 1 year of experience in Python at a beginner level and have worked on various projects that have helped me develop my skills and expertise. Currently, I am developing my HTML and CSS skills.</p>
+        </section>
+
+        <section id="Projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><strong>Screenshot Compiler:</strong> A  web application designed to help manage your screenshots,supporting multimedia.</li>
+                <li><strong>Password Strength Checker:</strong> A tool for password strength checker and providing user feedback about their cryptic.</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="16">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    
+    <section id="Contact">
+        <h2>Contact Me</h2>
+        <form action="/submit" method="post">
+
+
+            <label for="Name">Name:</label><br>
+            <input type='text' id="Name" name="Name" required><br><br>
+
+            <label for="Email">Email:</label><br>
+            <input type='email' id="Email" name="Email" required><br><br>
+
+            <label for="Message">Message:</label><br>
+            <textarea id="Message" name="Message" rows="4" cols="50" placeholder="Leave a Message For me ... 👋" required></textarea>
+
+            <br>
+            <button type="submit">Send</button>           
+            <br>
+            <button type="reset">Reset</button>
+            <br>
+
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Harsh Dev Jha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
