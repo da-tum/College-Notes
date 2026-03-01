@@ -1,0 +1,15 @@
+2025-12-05 23:34:02,739 - WARNING - JSON file not found. Starting with empty inventory.
+2025-12-05 23:35:49,790 - INFO - Loaded 0 books from storage.
+2025-12-05 23:36:00,704 - INFO - Book added: hello (123456)
+2025-12-05 23:36:24,286 - INFO - Book issued: hello (123456)
+2025-12-05 23:37:03,298 - INFO - Book returned: hello (123456)
+2025-12-05 23:38:01,941 - ERROR - Error loading data: Expecting value: line 1 column 1 (char 0)
+2025-12-05 23:38:01,942 - INFO - Book added: Title (123)
+2025-12-05 23:38:01,944 - ERROR - Error loading data: Expecting value: line 1 column 1 (char 0)
+2025-12-05 23:38:01,945 - ERROR - Error loading data: Expecting value: line 1 column 1 (char 0)
+2025-12-05 23:38:01,963 - ERROR - Error loading data: type object 'book' has no attribute 'from_dict'
+2025-12-05 23:38:01,964 - ERROR - Error loading data: Expecting value: line 1 column 1 (char 0)
+2025-12-05 23:38:01,965 - ERROR - Error loading data: Expecting value: line 1 column 1 (char 0)
+2025-12-06 00:40:29,015 - ERROR - Error loading data: type object 'book' has no attribute 'from_dict'
+2025-12-06 00:41:10,956 - ERROR - Error loading data: type object 'book' has no attribute 'from_dict'
+2025-12-06 00:41:40,969 - INFO - Book added: PYTHON (24019838)
