@@ -1,0 +1,7 @@
+for study.html:
+to make a CV with 
+table and 
+list , 
+dropdown, 
+image with source when clicked takes us 
+to the link 

@@ -1,0 +1,36 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    border: 2px solid black;
+}
+
+
+.box{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.box:nth-child(even){
+    background-color: lightcoral;
+}
+
+.box:nth-child(odd){
+    background-color: lightseagreen;
+}

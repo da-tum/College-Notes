@@ -1,0 +1,37 @@
+
+-<a> tag attaching and using one click attribute for attaching difference 
+    1. a tag is better for SEo , search engine optimization as it generates and is 
+    recognized as a link.
+    2. one click attribute does not assign a link in the web but directly routes the image
+    to the source link that was added to it at the developing stage of code.
+    3.One click attribute has a dependency of JAVAscript , whereas a tag can run without JS 
+    being present in the environment.
+    4. a tag is recognized as a link by the readers as well, easy for user to navigate.
+    easy navigation : link styling , pointer cursor , tab navigation.
+work of browser is to parse html .
+Whats parsing ?
+
+Core Web Vitals 
+    1. CLS - cumulative layout shift - shift in while loading the page 
+    it should be as low as it can be .
+    2. LCD - Largest Contextual Paint - time taken for biggest element of the page to load 
+    it should take 2.5 sec max or near it to be good/perfect , acc to gooel and web.dev
+    3. FID - First Input Delay - time taken for the input given by user in page to get 
+    processing .
+    100 milliseconds should be the top limit acc to google and web.dev 
+
+inspect a page , go to Lighthouse - it generates a reporpt to give the imprivements 
+you can feed your web page.
+
+How To Host the server from same network ?
+    First go and replace the ip in livepreview/liveserver any extentntion to the ip address of your 
+    network device ip4 fidn it via ipconfig in cmd prompt
+    then go to the network you devices are conencted with and set it to private so that network can help in 
+    data accessing smething like a LAN network.
+    Now use the ip with the port in your preview on your anyother device connected with the same network
+    to open the same page ,
+    Note: the whole link and path shoudl be written or else file not found error might show.
+    
+
+
+

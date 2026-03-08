@@ -1,0 +1,51 @@
+'how to make ip address of self website and get its domain name or what is 
+buying the domain name '
+
+
+can pendrive also be created into a server 
+then is a server like the storage hosted by the WWW storage deviced to the local deviceds 
+
+Self find:
+What exactly is a link in server hosting 
+what is WWW and connection of it with a server and can the
+To undetrstand Server and hosting in geenral to get a good understanding  
+ Browser and Search engine difference to check if we can write HTMl in other languages or not and 
+ the lang tag in html also to check if there is any relation in 
+ the translation that website provides online 
+ 
+29-10-25
+h1 tag height 32 px , 2 em .
+we can make a new tag with our name but usability is not there . 
+Can we make a tag custom .
+website-collection of webpages
+webpage-collection of html document
+html-collection of html elements
+html elements-colelction of html tags
+
+backend-processing units, answering clients
+
+API-is like the waiter- What is api?
+
+react js 
+
+node js backend 
+express js api deeds
+
+http to connect api to transfer data from abckend to frontend
+html - full form + used to structure our website and add/scripting content using tags . 
+thus its a markup language.
+
+types of tags : block level element - captures complete web browser width eg div tag, inline block level elements- covers the span of content size  eg span tag image tag,inline element- like paragraph tags as such .
+
+:root in css
+
+css selectors - 5 types ;
+    tag / element - in the element
+    id - #
+    class - .
+    universal - * 
+    Attribute/Group - name of group and then its css
+
+Combinator - 4 types 
+    
+

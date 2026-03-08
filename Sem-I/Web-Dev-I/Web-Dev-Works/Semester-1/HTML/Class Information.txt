@@ -1,0 +1,85 @@
+5-9-25
+HTML- Hyper Text markup language 
+There are Tags in HTML. fixed tags 
+HTML is a scripting language
+
+shift+1 - shortcut to open basic called boilerplate body 
+(https://www.google.com/search?q=the+code+that+opens+from+%5Bpressing+shift+%2B+1+in+html+file+is+called+%3E+&sca_esv=4a92dd1190abdc4f&sxsrf=AE3TifMnBSemyhJ_bJMECCKSIzoyDuCUjg%3A1757312801468&ei=IXe-aNupHJCOseMP68Sc6Q0&ved=0ahUKEwibvqmqxMiPAxUQR2wGHWsiJ90Q4dUDCBA&uact=5&oq=the+code+that+opens+from+%5Bpressing+shift+%2B+1+in+html+file+is+called+%3E+&gs_lp=Egxnd3Mtd2l6LXNlcnAiRnRoZSBjb2RlIHRoYXQgb3BlbnMgZnJvbSBbcHJlc3Npbmcgc2hpZnQgKyAxIGluIGh0bWwgZmlsZSBpcyBjYWxsZWQgPiBIyFFQ7gRYnkZwBXgBkAECmAGEAqABsVaqAQYwLjY2LjS4AQPIAQD4AQGYAkCgAoZMwgIKEAAYsAMY1gQYR8ICBBAjGCfCAgoQIxiABBgnGIoFwgILEAAYgAQYkQIYigXCAgsQLhiABBiRAhiKBcICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAg4QABiABBixAxiDARiKBcICBRAAGIAEwgIKEAAYgAQYQxiKBcICEBAuGIAEGEMYxwEYigUYrwHCAgoQLhiABBhDGIoFwgINEAAYgAQYQxjJAxiKBcICERAuGIAEGJECGNEDGMcBGIoFwgIQECMY8AUYgAQYJxjJAhiKBcICDRAuGIAEGEMY1AIYigXCAgsQLhiABBixAxiDAcICCBAuGIAEGLEDwgILEC4YgAQYxwEYrwHCAgUQLhiABMICERAuGIAEGMcBGJgFGJkFGK8BwgIXEC4YgAQYsQMYlwUY3AQY3gQY4ATYAQHCAhQQLhiABBiXBRjcBBjeBBjgBNgBAcICCBAuGIAEGNQCwgIaEC4YgAQYxwEYrwEYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAgUQIRifBcICBRAhGKABwgILEAAYgAQYhgMYigXCAgUQABjvBcICCBAAGIAEGKIEwgIHECEYoAEYCsICBBAhGBXCAggQABiiBBiJBcICBBAhGAqYAwDiAwUSATEgQIgGAZAGCLoGBggBEAEYFJIHBjUuNTUuNKAH_fECsgcGMC41NS40uAfoS8IHCTAuMzcuMjQuM8gH0QE&sclient=gws-wiz-serp0)
+
+6-9-25
+Tag and wrappers
+local host = 127.0.0.1:port ----> IP Address
+when i run for debug that is F5 then it will run the file path and show me the debugged code 
+or the output of the code whereas when i run it using GO LIVE method then it will generate
+an localhost ip address with port that is generally 127.0.0.1:port (port being 5500 generally)
+
+the go live will live the whole folder with it which will give its entirety of components 
+shown on the webpage that will and can be accessed by the webpage , hosted through localhost 
+
+what is ip addredd , and port , port forwarding >
+
+8-9-25
+SERVER roughly is a device that stores soemthing , it serves data , thus it has to have data
+that why its a SERVER 
+pendrive is also a storing device , but it is not considered a server as it deosnt host 
+anything on WWW.
+Server is a advanced storage compared to pendrive , a link is created for every data or storage
+created in the server, the data stored in it will create a link and it will associate 
+the data to the server . CANNOT access without link 
+
+'photo is website and the google drive link is the server hosting link'
+40 percent of websites are hsoted by amazon servers
+servers like AWS and hostinger 
+
+TO WRITE BACKEND IN ANDROID SPRINGBOOT STACK is better .
+Static website - cant change data - eg marks upload portal
+dynamic website - can change self data - interactive website - eg insta , chatgpt
+HTML v 5
+open cmd in the terminal of folder and then on the opened command prompt do 
+then write 'code . '
+
+can use heading tag for 6 lines then it becomes normal text paragraph
+
+
+9-9-25
+control nd forward slash together will comment the htmml
+<br/> Tag gives  line break
+<hr/> tag gives horizontal line 
+<hr width="" height="" color=""/>
+px - pixel measures the length , its a unit of measurement
+it is the smallest unit in length 
+(A single pixel does not have a fixed physical size but is defined by the image or screen it is on. In digital design, a common definition is that a CSS pixel is 1/96 of an inch (approximately 0.26 mm), a standard that ensures consistent display sizes across different devices. However, the actual physical size can vary depending on the screen's resolution and DPI (dots per inch), as seen in high-resolution displays)
+<pre> tag gives space entity vLUE , how the styling is 
+in coding are thT IS also reflected 
+<marquee> <marquee/> - this taG USED TO slide text
+
+website : w3school, geeksforgeek , mdn
+
+<b><b/> for bolding
+<del><del/> - to cut  aLR WRITTEN ENTITY 
+<sub><sub/> - down subscript
+<sup><sup/> - up superscript 
+
+<mark><mark/> - to highlight the important - by deFaULT Ylw color 
+<i><i/> - italics
+hash tag
+<q><q/> - quotes 
+<small><small/> - this tag smalls 
+strong tag
+
+<ul><ul/> - unorderly tag it will havE INDENDtion of the list tag
+    <li><li/> - creates list 
+    Li*4
+
+<ol><ol/> - orderly tag it will havE INDENDtion of the list tag
+
+10-9-25
+<table></table> table tag creates table 
+<tr> creates row 
+<td> creates table data
+written like :
+<table border='1' cellpadding='60'>
+    <tr>
+     <td>1</td>
+    <td>2</td>
+    </tr>

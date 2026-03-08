@@ -1,0 +1,8 @@
+    
+CSS types:
+    inline 
+        in the tag
+    internal
+        the style method in header not attaching
+    external
+    
