@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: black;
+  color: #00ff88;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+#matrix {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminal {
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid #0a3;
+  box-shadow: 0 0 24px rgba(0, 255, 136, 0.25), inset 0 0 12px rgba(0, 255, 136, 0.2);
+  padding: 16px 20px;
+  border-radius: 6px;
+  max-width: min(90vw, 900px);
+}
+
+#intro {
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.4;
+  color: #8fffcf;
+  text-shadow: 0 0 6px rgba(0, 255, 136, 0.35);
+}
+
+/* Subtle scanline effect */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(0, 255, 136, 0.02) 3px,
+    rgba(0, 255, 136, 0.02) 4px
+  );
+  pointer-events: none;
+}
+
+
+
+

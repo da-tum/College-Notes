@@ -1,0 +1,224 @@
+5-9-25
+
+  keyword - as it is defined in python ( cannot be altered or changed )
+  built in functions - provided as keywords by python
+  variable - user defined ( change as per demand)
+  float for smaller decimal series , double for larger decible series
+  (TO CHECK DOUBLE DATATYPE IN PYTHON AND OVEFRALL)
+  int,float,str,boolean,double - major datatypes in python
+  Python as Object oriented programme
+  (https://www.google.com/search?q=how+does+object+orientation+programming+help+in+python+to+not+add+the+datatype&oq=how+does+object+orientation+programming+help+in+python+to+not+add+the+datatype+&gs_lcrp=EgZjaHJvbWUyBggAEEUYQNIBCTExODk3ajBqOagCBrACAfEFihYXBa-z5ow&sourceid=chrome&ie=UTF-8)
+  Operation - 
+          arithmetic : % for remainder , / for division 
+        , logical , relational ,  bitwise , unary , binary , conditional (ternary)
+  Implicit and Explicit Typecasting 
+
+  %- modulo operator gives remainder as the output
+  // - floor division operatos , gives only the Numeric value and not the decimal
+
+9-9-25
+  [] - subscript operator - in slicing 
+  #Python is the only lang that supports bi-directional indexing 
+  positive indexing and negative indexing
+  in slicing the LHS to double colon is inclusive in nature whereas the RHS 
+  is exclusive in nature , because we start the indexing with 0 , thus total no of elements
+  in the indexing is N+1 where N is the last indexed number given to the data.
+
+12-9-25:
+  in - keyword 
+  i /j or any variable used before in keyword is the ITERATING VARIABLE
+  range takes 3 values , start , end and the step value.
+  before while loop the decription of a variable is 
+  INITIALIZATION of the varibale in that while loop case.
+  while has increment and decrement of loop 
+
+  Dry-run = understanding flow of program and the output it will give 
+
+15-9-25:
+
+  Operator Overloading :
+    when same operator is used in different context which so ever operator it may be .
+
+  Data structure:
+    Data structure is the study of in how many variations can you store data and retrive it 
+    when need arises 
+    most diff is to linerlly store and delivery the data.
+    The way in which you magae your data toa access it retireve it in minimum time , with less time and data 
+    complexity.
+    Patterns : (for datra organising)
+    Linear pattern:
+    Group pattern:
+    Irregular pattern:
+
+    Time compelxity - RAM
+    Space complexity - SSD
+    Comp sci exhausts itself on this since eons it was built.
+    logic arisen from coding - data stcructure.
+
+  We are following Arrays rn as it follows the basic real life method of linear data arrangement .
+
+  Arrays:
+    Array , tuples , list , dictionary , set are multiple datatypes that hold more than one data , 
+    provided to us for holding value. LInklist Queue STACK , Graph - data structures 
+    [] - subscript operator
+      In indexing tpo access elements , in slicing to fetch range of elements , in list to form a list and 
+      hold values , in numpy/pandas library there are other roles of it .
+    Point being a single operator has multiple uses or meaning depending on the logic you are implementing
+    it with.
+
+    Array is a data st in which elements can be defined , more than 1 data elemnts in a single variable like we 
+    did in list , we use it using NUMpy library in python (array).
+    One single datatype in arrays , cannot do mixing or multiple datatypes in ARRAY ,.
+    thats its CONS - in other languages , its suported in python though ?
+    We define array not directly but using the subscript operator and numpy imported , we are using it 
+    at default level as a list and then fetching numpy library to make it into an array via numpy library , thus 
+    the array in working in python.
+    Numpy stands for - numerical python.
+
+  Coding types :
+    Service bsed coding - using templates and deploying it to the client.
+    Product based coding (data structure coding) - done in leet code like competition.
+
+  In Web developing - HTMl we use data structures ?
+  Data st relating to coding at backend, heart of coding is data st.
+  We skip data st in real life as it is related to product based coding that is comeptitive coding , 
+  it teacehs that in a real life problem statement how to convert it into coding .
+  Converting IRL issues in mathematical notation and then coverting it into code.
+
+  Data st used in server side to handel the data od user and absorb/adsorb it to produce output,
+  that is in Product based coding.
+
+
+  Lists are mutable in nature .
+
+17-9-25
+
+  l.append
+  del l[]
+  l.remove()
+  list photos STACK data structur , FILO- LIFO
+
+  insertion by append and insert.
+  append by default adds it to the end of list
+  Adol , simuntaneously you cna insert using insert built in function 
+  used like : l.insert(index,'value')
+
+  extend function
+  adds a list to another list , concatination 
+  clubbing and rearrangement = addition and concatination 
+
+  del keyword can take the input in slicing as well .
+  remove takes 1 value, and it has a set datatype , it consideres the value not as the value but as another 
+  datatype when given in multiple in anywat.
+  del takes multiple values 
+  insert adds at the given index 
+
+  #push and pop are two built in fucntion whose concept is realted with datastructre STACK 
+  push insert at the initial position, ALWAYS
+
+  count funcn - gives the no of elemts stated in it
+
+  sort fucntion 
+  sorts it in order but doesnt show in same line or on thoe lines as its a fucntion to work on
+  not a function that returns something.
+
+22-9-25
+
+  Time consumption is great in list as loop is neccessary for flexible retirval incersion and traversal of data.
+  Thus other Datastructures are used instead in most places , such as STACK , TUPLE , ARRAY ..
+  Stack to is a ienar datastructure .
+
+  Push is not in python but in stack , its limitation is that always push will be done at the end same as pop , hence push works 
+  like append in this sense , insert whereas gives possibility of enabling user to modify the values in between as well.
+
+  Dictionary is HASH Datastrcutre (Hash table) .
+
+
+24-9-25
+
+  Dictionary - key value pair , key cant repeat itself must be unique at all times.
+  No concept of numeric indexing in dict. but with the key we can do indexing , like finding data in a large datastructre
+  mutable in nature , glitch is keys once defined must be unique.
+  Loop - way in which we can traverse a data st.
+  traversing : visiting each and every data indexing in a data st.
+
+  d.items() - gives key nd value pair
+  d.keys() - gives keys
+  d.values() - gives values
+  del d['key']
+  d.pop('key') - returns popped value , as a blank call also it del the last pair
+  d.popitem() - removes last item , doesnt take any value while calling.
+  d.update(dict2)
+
+  Dictionary is not sorted by nature 
+  before python 3.7 every dict data st is jumbled.
+
+26-9-25
+
+  Functions:
+  creating package in simple terms 
+  diving given code in modules
+  dont activate unless called for .
+  divides code in logical structure.
+
+  standalone function:
+    no value passed , no arguemnts in the () - brackets.
+
+  docstring
+    can declare a docstring after writing the def statement of the fucntion , after the termination operator
+    in the next line.
+    It is like a comment only
+  
+  Fucntions is like a subscript unless it is called.
+
+  Parameters And Arguments:
+
+    Parameters: In the defining statement of funcn
+    Arguments : While calling the function
+    can be interchanged but the difference exists 
+    In Python, parameters and arguments can be referred to by other names depending on their context:
+
+      Parameters (defined in the function declaration) are sometimes called:
+
+      Formal parameters
+      Placeholders
+      Arguments (values passed to the function during a call) are sometimes called:
+
+      Actual arguments
+      Inputs
+      These terms are often used interchangeably, but the distinction lies in whether you're referring to the function definition (parameters) or the function call (arguments).
+
+  USE:
+  hELPS IN CODE REDUNDANCY 
+
+  Standalone 
+  Positional Arguments 
+  Arbitrary Posititonal Arguments  
+     *args
+     add *(parameter) for infi no of arguments to take while functions arguments
+  Keyword  Args
+    *krgs
+  
+  Arbitraty KEyword Arguments 
+    **kwarg
+
+  
+Miscellaneous:
+  Data st :
+  sorting searchign and arrangement-storage of data.
+   Bubble Sorting:
+    list in list in list in - like MLM.
+  Merge sorting
+  Insertion sorting
+  Bucket sorting
+
+
+Comprehension
+
+  List comprehension- in list 
+
+  lambda funciton - list comprehension in a fucntion 
+  lambda means - one line logic in the code
+
+  limitaiion : can only be used when the the logic is one liner
+
