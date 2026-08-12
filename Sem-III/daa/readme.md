@@ -61,3 +61,24 @@ Absolute time is Platform Dependednt thus in Algorithms analysis we dont use it 
         1. Big O (O) - Upper Bound - indicates the worst-case scenario
         2. Big Omega (Ω) - Lower Bound - indicates the best-case scenario
         3. Theta (Θ) - Tight Bound - meaning algorithms runtime grows at the same rate in both the upper and lower bounds.
+
+### Searching Algorithms
+
+#### Linear Search and Binary Search
+
+##### Linear Search - Arr can be sorted or unsorted
+
+    comparing each element to the key , we stop when we find the element.
+    eg:
+        arr = [1,2,3,4,5]
+        key = 3
+        compare 1,2 with 3 -> 
+    Time complexity : worst case - 
+
+    
+##### Binary Search
+
+    We calculate the mid position.
+    comparing the key with the mid positon , and comapring if greater or not.
+    as per the information shifting the global index by mid+1 or mid-1 for left or right indexes.
+    Time complexity : worst case - 

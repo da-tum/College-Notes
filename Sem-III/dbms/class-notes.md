@@ -71,12 +71,14 @@
 ### Core Components & Detailed Attribute Implementations
 
 #### 1. Entities & Entity Sets
+
 - **Entity**: A real-world object or concept that is uniquely distinguishable (e.g., a specific Student, Car, Course).
 - **Entity Set**: A collection of similar entities sharing the same properties (e.g., all `STUDENT` entities in a university).
 - **Strong Entity Set**: An entity set that possesses a primary key attribute to uniquely identify each tuple. (Notation: Single Rectangle)
 - **Weak Entity Set**: An entity set that does not have a primary key on its own and relies on a strong identifying entity set. It uses a **Partial Key / Discriminator** (Notation: Double Rectangle).
 
 #### 2. Attribute Types & Implementation
+
 Attributes are characteristics or properties that describe an entity set.
 
 | Attribute Type | Description | Diagrammatic Notation | Real-World Example |
@@ -89,6 +91,7 @@ Attributes are characteristics or properties that describe an entity set.
 | **Derived Attribute** | Dynamically computed/derived from another attribute or current system date. | Dashed Oval | `Age` (derived from `DOB` & current date)<br>`Total_Price` (derived from `Price * Qty`) |
 
 #### 3. Relationships & Constraints
+
 - **Relationship Set**: An association between two or more entity sets (Notation: Diamond).
 - **Identifying Relationship Set**: Links a weak entity set to its strong owner entity set (Notation: Double Diamond).
 - **Cardinality Ratios**:
@@ -105,9 +108,11 @@ Attributes are characteristics or properties that describe an entity set.
 ### Visual ER Diagrams & Symbol References
 
 #### Complete ER Diagram (Featuring All Attribute & Entity Types)
+
 ![Comprehensive ER Model Diagram](./images/er_model.png)
 
 #### ER Notation Symbols Reference Guide
+
 ![ER Model Symbols Guide](./images/er_components.png)
 
 ---
@@ -142,6 +147,7 @@ Attributes are characteristics or properties that describe an entity set.
             (3) Constraints - Rules enforcing consistency and integrity.
 
 #### 1. Hierarchical Data Model Structure (Tree Graph)
+
 Organizes records in a inverted tree-like parent-child structure ($1:N$).
 
 ![Hierarchical Data Model](./images/hierarchical_model.png)
@@ -154,6 +160,7 @@ Organizes records in a inverted tree-like parent-child structure ($1:N$).
         - Cardinality: 1:N (One to Many)
 
 #### 2. Network Data Model Structure (Graph Model)
+
 Extends the hierarchical model by allowing a child record to have multiple parent records ($M:N$).
 
 ![Network Data Model](./images/network_model.png)
@@ -209,7 +216,7 @@ Extends the hierarchical model by allowing a child record to have multiple paren
 | **Key Attribute** | No | 1 (Unique) | Stored | Oval with <u>Underline</u> | Primary Key identification (`Roll_No`) |
 | **Simple Attribute** | No (Atomic) | 1 | Stored | Standard Oval | Single properties (`Gender`, `Salary`) |
 | **Composite Attribute** | Yes (Hierarchy) | 1 (Combined) | Stored | Oval with Sub-branches | Complex fields (`Name`, `Address`) |
-| **Multi-Valued Attribute**| No | Multiple ($\ge 0$) | Stored | Double Oval | Collections (`Phone_No`, `Skills`) |
+| **Multi-Valued Attribute** | No | Multiple ($\ge 0$) | Stored | Double Oval | Collections (`Phone_No`, `Skills`) |
 | **Derived Attribute** | No | 1 | Calculated | Dashed Oval | Dynamic values (`Age` from `DOB`) |
 
 ---
@@ -222,3 +229,79 @@ Extends the hierarchical model by allowing a child record to have multiple paren
 | **Dependency** | Indicates Existence Dependency. | Indicates optional relationship association. |
 | **Notation** | Double Line | Single Line |
 | **Example** | Every `LOAN` must belong to at least one `CUSTOMER`. | Not every `CUSTOMER` must take a `LOAN`. |
+
+---
+
+#### 3. Relational Data  Model Structure (Table Model)
+
+Relational Data Model is the most widely used Data Model in the world.
+It was made by E.F. CODD in 1970.
+Data is organized in the form of tables (Relations), consisting of
+rows (tuples - storing data for one entry entirely in the attributes) and
+columns (attributes - essentially label a header to stand out).
+
+Relationship between tables are established using keys -> meaning identifiers (Primary, Foreign, Super, Alternate keys etc).
+This model establishes the logical schema for the database. It uses relational algebra (theoretical basis) and SQL (practical implementation) for data manipulation. It is the most widely adopted model due to its simplicity and flexibility.
+
+##### Example Schema & Tables
+
+1. **Program Table** (`Program`) — Parent Relation
+   - **Primary Key (PK)**: `PID`
+
+| PID (PK) | Program_Name |
+| :--- | :--- |
+| P101 | B.Tech Computer Science & Engineering (CSE) |
+| P102 | B.Tech Artificial Intelligence & Data Science (AI & DS) |
+| P103 | B.Tech Cyber Security |
+
+<br>
+
+1. **Student Table** (`Student`) — Child Relation
+   - **Primary Key (PK)**: `Roll_No`
+   - **Foreign Key (FK)**: `PID` (References `Program.PID`)
+
+| Roll_No (PK) | Name | Semester | PID (FK) |
+| :--- | :--- | :--- | :--- |
+| 101 | Rahul Sharma | 3 | P101 |
+| 102 | Priya Verma | 3 | P102 |
+| 103 | Amit Patel | 3 | P101 |
+
+##### Advantages
+
+1. Simple and Easy to understand format (tabular format).
+2. Reduces redundancy through normalization.
+
+##### Disadvantages
+
+1. It can be slower for very complex relationships.
+2. It is not ideal for large datasets/ complex datatypes. (Handled by Object Oriented Model)
+
+#### 4. Entity-Relationship (ER) Model Structure (Conceptual Model)
+
+The ER Model is a high-level conceptual data model used to represent the logical structure of a database. It is not a database system itself but a tool for database design.
+
+![Entity-Relationship Model](./images/er_model.png)
+
+    It is a conceptual model used for designing the database
+
+    Terminologies / Basic Components:
+        - Entities: It is a real world object or concept that can be distinctly identified and about which data is stored. It is Represented by **Rectangles** (e.g., `STUDENT`, `COURSE`, `TEACHER`).
+        - Entity Set: It is the Coelction of entities of same type. (e.g., entity set `student` contains all individual student entities.)
+        - Attributes: It is the properties/charecterstic of an entity. Represented by **Ovals** or **Ellipse** (e.g., Student has attributes `Name`, `ID`,`Age`,`Course`). An attirbute is conected to its entity.
+            - Single Line: Simple Attribute
+            - Underlined Oval: Key Attribute
+            - Double Oval: Multi-valued Attribute
+            - Dashed Oval: Derived Attribute
+            - Oval with Branches: Composite Attribute
+        - Relationships: Represented by **Diamonds** (e.g., `Enrolls_in`).
+        - Participation Constraints:
+            - Single Line: Partial Participation (Optional)
+            - Double Line: Total Participation (Mandatory)
+        - Cardinality: Denoted by **1:N**, **M:N**, **1:1** on the relationship lines.
+
+    How it works:
+        The ER Model acts as a blueprint. It visually maps out:
+        - What "things" (entities) the database cares about.
+        - What properties (attributes) each thing has.
+        - How these things relate to each other (relationships and participation).
+        This conceptual design is then translated into physical database tables (relational model) using tools like ER diagrams.

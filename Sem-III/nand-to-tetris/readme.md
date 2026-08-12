@@ -45,3 +45,8 @@
 
     1. XOR
     2. X-NOR
+
+## MUltiplexer and Demultiplexer
+
+    1. MUltiplexer - Many to One - also called MUX 
+    2. Demultiplexer - One to Many - also called DMUX
