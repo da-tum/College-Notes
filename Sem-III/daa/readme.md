@@ -73,7 +73,7 @@ Absolute time is Platform Dependednt thus in Algorithms analysis we dont use it 
         arr = [1,2,3,4,5]
         key = 3
         compare 1,2 with 3 -> 
-    Time complexity : worst case - 
+    Time complexity : Best case - O(1), Worst case - O(n), Average case - O(n)
 
     
 ##### Binary Search
@@ -81,4 +81,10 @@ Absolute time is Platform Dependednt thus in Algorithms analysis we dont use it 
     We calculate the mid position.
     comparing the key with the mid positon , and comapring if greater or not.
     as per the information shifting the global index by mid+1 or mid-1 for left or right indexes.
-    Time complexity : worst case - 
+    Time complexity : Best case - O(1), Worst case - O(log n), Average case - O(log n)
+
+---
+
+## 📚 Comprehensive Semester Study Notes
+
+Deep-dive structured notes covering DAA, DBMS, and Web Development are organized in the [`note-study`](./note-study/) folder.
